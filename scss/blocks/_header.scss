@@ -1,0 +1,92 @@
+.header{
+  margin-bottom: 50px;
+}
+
+.header__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px Solid #FFFFFF;
+  padding: 65px 0 72px;
+}
+
+.header__link {
+  width: 100%;
+  max-width: 106px;
+  height: 43px;
+  margin-right: 717px;
+}
+
+.nav__menu {
+  display: flex;
+}
+
+.nav__link {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  color: #FFFFFF;
+  opacity: 0.3;
+  text-decoration: none;
+  margin-right: 35px;
+  
+
+  &:hover {
+    color: #FFFFFF;
+    opacity: 0;
+  }
+
+  &:active {
+    color: #FFFFFF;
+    opacity: 0;
+  }
+}
+
+.header__sublink{
+  border-radius: 75px;
+  background: transparent;
+}
+
+.header__list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.heder__item{
+  margin-left: 6px;
+}
+
+
+// @media only screen and (max-width: 425px) {
+//   .header {
+//     padding: 22px 0;
+//   }
+
+//   .nav {
+//     position: relative;
+
+//     &::after {
+//       content: "";
+//       display: block;
+//       width: 24px;
+//       height: 11px;
+//       background-image: url("../images/toggler-open.svg");
+//       background-repeat: no-repeat;
+//       position: absolute;
+//       top: 10px;
+//       right: 0px;
+//     }
+//   }
+
+
+//   .nav__item {
+//     display: none;
+//   }
+
+//   .header__sublink {
+//     display: none;
+//   }
+// }
